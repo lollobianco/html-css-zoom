@@ -77,10 +77,6 @@ main{
    color: white;
 }
 
-.cards-container{
-   padding: 10px 0;
-}
-
 .card{
    position: relative;
    padding: 5px;
@@ -95,7 +91,7 @@ main{
    padding: 5px;
    background-color: rgba(0, 0, 0, 0.4);
    position: absolute;
-   bottom: 9px;
+   bottom: 40px;
    left: 5px;
 }
 
