@@ -2,4 +2,55 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.fa-solid{
+   color: white;
+}
+
+.flex-cards{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.flex-column{
+   display: flex;
+   flex-direction: column;
+}
+
+.flex-end{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.header-tab-container{
+   padding: 10px;
+   font-size: 0.8rem;
+}
+
+.header-tab{
+   padding: 5px;
+   background-color: #4A4A4A;
+   border-radius: 5px;
+   margin-left: 10px;
+}
+
+.web-app-container{
+   height: 100vh;
+   background-color: black;
+   color: white;
+}
+
+.card{
+   background-image: url("https://picsum.photos/200/300");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.name{
+   font-size: 0.8rem;
+
 }
