@@ -9,21 +9,43 @@ body{
    background-color: black;
 }
 
+nav{
+   height: 8vh;
+   background-color: #222222;
+}
+
 .fa-solid{
    color: white;
+}
+
+.flex{
+   display: flex;
 }
 
 .flex-cards{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   /* align-items: center; */
+}
+
+.flex-space-bet{
+   display: flex;
+   justify-content: space-between;
 }
 
 .flex-column{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+}
+
+.flex-align-center{
+   display: flex;
+   align-content: center;
+}
+
+.flex-justify-center{
+   display: flex;
+   justify-content: center;
 }
 
 .flex-end{
@@ -49,13 +71,12 @@ body{
 }
 
 .cards-container{
-   /* padding: 30px 0; */
+   padding: 10px 0;
 }
 
 .card{
    position: relative;
    padding: 5px;
-   width: calc((100%/7)-10px);
 }
 
 .card img{
@@ -69,4 +90,39 @@ body{
    position: absolute;
    bottom: 9px;
    left: 5px;
+}
+
+nav i{
+   font-size: 1.6rem;
+}
+
+.fa-angle-up{
+   font-size: 0.7rem;
+   margin-left: 15px;
+}
+
+.fa-share-from-square{
+   color: #4BC800;
+}
+
+.text{
+   font-size: 0.7rem;
+   margin-top: 7px;
+}
+
+.item{
+   margin: 15px;
+}
+
+.right-nav{
+   height: 100%;
+   background-color: #4A4A4A;
+   padding: 20px;
+
+}
+
+.end-meeting{
+   background-color: #4A4A4A;
+   border: none;
+   color: red;
 }
