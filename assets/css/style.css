@@ -20,7 +20,14 @@ header{
 
 main{
    height: 84vh;
+   overflow-y: auto;
+   -ms-overflow-style: none;  
+   scrollbar-width: none;
 }
+
+main::-webkit-scrollbar {
+   display: none;
+ }
 
 .fa-solid{
    color: white;
@@ -84,6 +91,7 @@ main{
 
 .card img{
    width: 100%;
+   border-radius: 2px;
 }
 
 .name{
@@ -91,7 +99,7 @@ main{
    padding: 5px;
    background-color: rgba(0, 0, 0, 0.4);
    position: absolute;
-   bottom: 40px;
+   bottom: 9px;
    left: 5px;
 }
 
